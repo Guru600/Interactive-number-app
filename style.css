@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.app-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+}
+
+header h1 {
+    color: #ff6347; /* Tomato */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.numeral-display-area {
+    background-color: #fffacd; /* LemonChiffon */
+    border: 3px dashed #ffb6c1; /* LightPink */
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#current-numeral {
+    font-size: 4.5em; /* Adjusted for three-digit numbers */
+    font-weight: bold;
+    color: #4682b4; /* SteelBlue */
+}
+
+.navigation-buttons button {
+    background-color: #32cd32; /* LimeGreen */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #228b22; /* ForestGreen */
+}
+
+.navigation-buttons button:active {
+    transform: translateY(2px);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
